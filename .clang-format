@@ -1,0 +1,13 @@
+Language: Cpp
+IndentWidth: 4
+ColumnLimit: 130
+PointerAlignment: Right
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: Inline
+AlignConsecutiveAssignments: AcrossEmptyLines
+AlignConsecutiveDeclarations: AcrossEmptyLines
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignTrailingComments: true
+EmptyLineBeforeAccessModifier: Always
+QualifierAlignment: Left
+SeparateDefinitionBlocks: Always
