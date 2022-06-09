@@ -14,8 +14,8 @@
 
 /*** Board setup ***/
 #include "configuration.h"
+#include "t-echo.h"
 #include "sh_board.h"
-#include "utilities.h"
 
 /*** LoRa setup ***/
 // #include "sh_lora.h"

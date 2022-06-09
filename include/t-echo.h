@@ -1,19 +1,17 @@
 /**
- * @file utilities.h
+ * @file t-echo.h
  * @author your name (you@domain.com)
- * @brief Pin setup for Arduino based T-Echo installation
+ * @brief  Contains board definitions for T-Echo board
  * @version 0.1
- * @date 2022-05-28
+ * @date 2022-05-29
  *
  * @copyright Copyright (c) 2022
  *
  */
+#ifndef _T_ECHO_H_
+#define _T_ECHO_H_
 
-#ifndef _UTILITIES_H_
-#define _UTILITIES_H_
-
-#include <Arduino.h>
-
+/*** Pin defines ***/
 #ifndef _PINNUM
 #define _PINNUM(port, pin) ((port)*32 + (pin))
 #endif
@@ -66,8 +64,8 @@
 #define RED_LED_PIN    _PINNUM(1, 3)
 #define BLUE_LED_PIN   _PINNUM(0, 14)
 
-/* better human readable labels for serial connections */
+/*** better human readable labels for serial connections ***/
 #define SERIAL_MON Serial
 #define SERIAL_GPS Serial2
 
-#endif // _UTILITIES_H_
+#endif // _T_ECHO_H_

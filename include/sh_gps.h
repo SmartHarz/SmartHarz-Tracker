@@ -13,15 +13,18 @@
 #define _SH_GPS_H_
 
 #include "configuration.h"
-#include "utilities.h"
+#include "t-echo.h"
 #include <TinyGPS++.h>
 
 extern TinyGPSPlus *gps;
 
-extern float        latitude, longitude, altitude;
-extern int          hdop, sats;
+/*** Variables ***/
 
-/** Function prototypes **/
+extern float latitude, longitude, altitude;
+extern int   hdop, sats;
+extern bool  hasGPSFix;
+
+/*** Function prototypes ***/
 void setupGPS();
 
 #endif // _SH_GPS_H_
