@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/SmartHarz/SmartHarz-Tracker)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SmartHarz/SmartHarz-Tracker/PlatformIO)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/SmartHarz/SmartHarz-Tracker)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/SmartHarz/SmartHarz-Tracker)
 # SmartHarz-Tracker (English|[Deutsch weiter unten](#smartharz-tracker-deutsch))
 
 A LoRaWAN tracker based on the [Lilygo T-Echo](https://github.com/Xinyuan-LilyGO/T-Echo).
@@ -34,3 +38,4 @@ As Meshtastic and SoftRF are available for the T-Echo already, a tracker was the
 - BLE/NFC
 
 # SmartHarz-Tracker (Deutsch)
+Kommt mit v1.0
