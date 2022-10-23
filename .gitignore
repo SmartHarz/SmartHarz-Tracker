@@ -1,6 +1,5 @@
 # general
 .pio
-include/configuration.h
 include/credentials.h
 
 # vscode
